@@ -186,13 +186,13 @@
             margin-right: auto;
         }
         .speech-bubble:after {
-  content: '';
-  position: absolute;
-  bottom: 100%;
-  left: 60%;
-  border: 10px solid transparent;
-  border-bottom-color: #FF4500;
-  transform: translateX(-50%);
+          content: '';
+          position: absolute;
+          bottom: 100%;
+          left: 60%;
+          border: 10px solid transparent;
+          border-bottom-color: #FF4500;
+          transform: translateX(-50%);
         }
         .result-number {
             font-size: 36px;
@@ -200,42 +200,42 @@
             font-weight: bold;
         }
         .price-plan {
-    background-color: #FFF5EE;
-    padding: 20px;
-}
-.price-content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.monthly-fee {
-    background-color: yellow;
-    padding: 10px;
-    transform: rotate(-5deg);
-}
-.fee {
-    font-size: 36px;
-    font-weight: bold;
-}
-.campaign {
-    font-size: 28px;
-    color: #FF4500;
-}
-.plus-sign {
-    font-size: 36px;
-}
-.per-request {
-    border: 2px solid black;
-    border-radius: 10px;
-    padding: 10px;
-}
-.fee-table {
-    width: 80%;
-}
-.payback-example {
-    margin-top: 20px;
-    padding: 10px;
-}
+            background-color: #FFF5EE;
+            padding: 20px;
+        }
+        .price-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .monthly-fee {
+            background-color: yellow;
+            padding: 10px;
+            transform: rotate(-5deg);
+        }
+        .fee {
+            font-size: 36px;
+            font-weight: bold;
+        }
+        .campaign {
+            font-size: 28px;
+            color: #FF4500;
+        }
+        .plus-sign {
+            font-size: 36px;
+        }
+        .per-request {
+            border: 2px solid black;
+            border-radius: 10px;
+            padding: 10px;
+        }
+        .fee-table {
+            width: 80%;
+        }
+        .payback-example {
+            margin-top: 20px;
+            padding: 10px;
+        }
         .price-plan {
             display: flex;
             flex-direction: column;
@@ -391,6 +391,54 @@
             color: #FF4500;
             font-weight: bold;
         }
+        .fee-table-title {
+            font-weight: bold;
+            color: #FF4500;
+            margin-bottom: 10px;
+        }
+        .additional-note {
+            font-size: 0.9em;
+            margin-top: 20px;
+            text-align: left;
+        }
+        .reveal .slides section .qa-section {
+            text-align: left;
+            font-size: 0.9em;
+            width: 90%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .qa-item {
+            margin-bottom: 20px;
+        }
+        .qa-item p {
+            text-align: left;
+            margin: 0;
+        }
+        .question {
+            font-weight: bold;
+            color: #FF4500;
+        }
+        .final-slide {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+        }
+        .details-link {
+            margin-bottom: 20px;
+            font-size: 1.2em;
+            color: #FF4500;
+        }
+        .details-link a {
+            color: #FF4500;
+            text-decoration: underline;
+        }
+        .final-image {
+            max-width: 80%;
+            max-height: 60vh;
+        }
     </style>
 </head>
 <body>
@@ -400,6 +448,7 @@
                 <h1 style="font-size: 60px; text-shadow: 2px 2px 4px rgba(0,0,0,0.5);">ヤフオク出荷代行サービスのご案内</h1>
                 <h3>AI画像物販を加速しませんか</h3>
                 <p style="font-size: 72px;">🚀🍣</p>
+                <h4>※本資料は生成AIを駆使して作成しました♪</h4>
             </section>
 
             <section>
@@ -473,6 +522,7 @@
 
             <section>
                 <h2>サービスの概要</h2>
+                <h3>ユーザーは依頼だけ！印刷～発送まで代行してくれる！</h3>
                 <div class="service-flow">
                     <div class="flow-item">
                         <h2>1. 代行依頼</h2>
@@ -544,7 +594,7 @@
 
             <section class="price-plan">
                 <h2>料金体系</h2>
-                <div class="price-note">光沢紙、梱包資材費はコミコミ！</div>
+                <div class="price-note">印刷経費、梱包資材費などすべてコミコミ！</div>
                     <div class="price-main">
                     <div class="price-box">
                         <div class="price-title">月額</div>
@@ -569,6 +619,7 @@
                         </div>
                     </div>
                     <div class="fee-table">
+                        <p class="fee-table-title">梱包1件当たりの金額表</p>
                         <table>
                             <tr><th>枚数</th><th>代行費（税抜）</th></tr>
                             <tr><td>1</td><td>¥150</td></tr>
@@ -579,6 +630,7 @@
                         </table>
                     </div>
                 </div>
+                <p class="additional-note">※月額費からプリンタや備品購入費、人材育成のための人件費などに充てます</p>
             </section>
 
             <section>
@@ -591,12 +643,39 @@
                 </ul>
                 <p style="font-size: 72px;">📦</p>
             </section>
-                        
+            
+            <section>
+                <h2>Q&A</h2>
+                <div class="qa-section">
+                    <div class="qa-item">
+                        <p class="question">Q.ユーザーは売れた画像とQRを用意するだけ？</p>
+                        <p>A. はい、その通りです！</p>
+                    </div>
+                    <div class="qa-item">
+                        <p class="question">Q.インク代やプリンター代はどうなるの？</p>
+                        <p>A. インク代などの消耗品は代行費、プリンタなどの備品は月額費で充当。</p>
+                        <p>　ですので、月額費+代行費以上のご負担額は発生しません！</p>
+                        <p>　（補足:月額費から人材育成にかかる人件費も充てる予定です。）</p>
+                    </div>
+                    <div class="qa-item">
+                        <p class="question">Q. 光沢紙やプリンター、インクの指定はできるのでしょうか？</p>
+                        <p>A. 個別対応は厳しいため、指定できません。</p>
+                        <p>　同様の理由で梱包方法も指定できません。</p>
+                    </div>
+                    <div class="qa-item">
+                        <p class="question">Q. アダルトOKでしょうか</p>
+                        <p>A. アダルトOKです！</p>
+                    </div>
+                </div>
+            </section>
+            
             <section>
                 <h2>あなたにとって自由な時間を</h2>
-                <ul>
-                        <img src="https://raw.githubusercontent.com/ment-ai6/001/main/free%20man2.webp">
-                </ul>
+                <img src="https://raw.githubusercontent.com/ment-ai6/001/main/free%20man2.webp" alt="自由な時間" class="final-image">
+                <div class="details-link">
+                    <a href="https://example.com/details" target="_blank">詳細は準備中となります</a>
+                    <a href="https://forms.gle/wu7maHqUzr5YWX7G9" target="_blank">応募はこちらから</a>
+                </div>
             </section>
             
         </div>
